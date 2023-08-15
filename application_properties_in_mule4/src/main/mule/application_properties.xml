@@ -19,7 +19,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 			</route>
 			<route >
 				<db:select doc:name="MySQL" doc:id="9e2d330c-8114-47c0-9f4e-31a6cdb2caa9" config-ref="MySQL_Database_Config">
-					<db:sql ><![CDATA[SELECT * FROM employee]]></db:sql>
+					<db:sql ><![CDATA[SELECT * FROM new_employee]]></db:sql>
 				</db:select>
 			</route>
 		</scatter-gather>
